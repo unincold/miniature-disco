@@ -1,0 +1,11 @@
+English=['grammer','writing','listening','speaking']
+English.sort()
+#此处可添加reverse=true表示字母顺序倒序
+English_pop=English.pop()
+message=f"I love learning {English[0].title()},but i hate {English_pop.upper()}"
+#f内的要用花括号才能代用
+print(message)
+
+Books=['lyrics','classical','scientific','fiction']
+print(sorted(Books))
+#sorted函数不能用.调用

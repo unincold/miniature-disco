@@ -1,0 +1,10 @@
+users=['guests','administrators','hackers']
+user='guests'
+if user=='administrators':
+	print('Hello admin, would youlike to see status report?')
+elif user != 'administrators' and user in users:
+	print('Hello jaden, thank you for logging in again!')
+elif user not in users:
+	print('name unexists')
+else:
+	print('please tyoe in your name')

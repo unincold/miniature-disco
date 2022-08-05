@@ -1,0 +1,24 @@
+#回顾上节，sort可以用.，但是sourted只能在括号里面加
+#reverse倒叙
+cars=['bmw','audi','toyota','subaru']
+print(cars)
+cars.reverse()
+print(cars)
+#reverse括号内不能加，只能用.
+#len表长度
+print(len(cars))
+
+
+
+#开始练习3-8
+places=['England','America','Nile','Greenland']
+print(places)
+print(sorted(places))
+print(places)
+cars.sort(reverse=True)
+#这里的T要大写
+print(cars)
+print(sorted(cars,reverse=True))
+places.reverse()
+print(places)
+#nice job

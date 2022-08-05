@@ -1,0 +1,21 @@
+motorcycles=['honda','yamaha','suzuki']
+motorcycles[0]='ducati'
+print(motorcycles[0].upper())
+#注意中英文的括号，引号别漏
+
+#append附加,insert插入
+[motorcycles.append('honda')]
+motorcycles.insert(1,"whatever")
+print(motorcycles)
+#拼写检查
+#questions:如何连续执行两个操作
+
+#删除元素del
+del motorcycles[1]
+print(motorcycles)
+
+#弹出元素
+poped_motorcycles=motorcycles.pop()
+#这里pop括号可以加数字变化元素位置
+motorcycles.pop()
+print(poped_motorcycles)

@@ -1,0 +1,11 @@
+#用print才能表达结果
+print(1+2.0)
+
+#下划线不被识别
+universe_age=14_000_000_000
+print(universe_age)
+
+#同时给多个变量赋值
+x,y,z=1,2,3
+print(x+y+z)
+

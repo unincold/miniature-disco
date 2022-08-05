@@ -1,0 +1,16 @@
+#条件测试
+pig='lisonway'
+pig=='lisonway'
+if pig != 'lsonway':
+	print("That's impossible!!!")
+
+
+
+
+age_1=1111
+age_2=2222
+if age_1<=age_2 and age_1!=age_2:
+	print('yes')
+if age_1==age_2 or age_2 !=age_1:
+	print('what?')
+

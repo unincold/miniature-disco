@@ -1,0 +1,14 @@
+for value in range(1,10):
+	pass
+	print(value)
+print(list(range(1,9,2)))
+
+square=[]
+for value in range(1,10):
+	pass
+	A=value**2
+	#这里是中间变量
+	square.append(f'{A}')
+	#最后用f引号花括号带入
+	#append插入square表
+print(square)

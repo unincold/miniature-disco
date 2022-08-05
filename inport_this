@@ -1,0 +1,11 @@
+#列表
+bicycles=["trek","redline","specialized"]
+print(bicycles)
+
+#提取列表元素(注意是从0，1，2这样提取)，且-1负数是从最后一个开始
+bicycles=["trek","redline","specialized"]
+print(bicycles[0].title())
+
+bicycles=["trek","redline","specialized"]
+message=f"My first bicycle was a {bicycles[0].title()}"
+print(message)

@@ -1,0 +1,4 @@
+name="ada lovElacce"
+print(name.title())
+print(name.upper())
+print(name.lower())

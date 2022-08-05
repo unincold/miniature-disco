@@ -1,0 +1,13 @@
+A=['alise','david','carolina']
+#for后面加冒号
+for B in A:
+#注意这里print前带空格
+    print(B)
+
+magicians=['david','susan','tony']
+for magician in magicians:
+    pass
+    print(f"{magician.title()},that was a great trick!")
+    #花括号内表示要代入的值，且不能打在引号外面
+    print(f"I can't wait to see your another trick,{magician.title()}\n")
+print("thank you,that was a great magic show")

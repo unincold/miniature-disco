@@ -1,0 +1,3 @@
+customer={'color':'white','height':180,'weight':'130'}
+amd=customer.get('length','404 not found')
+print(amdg)
