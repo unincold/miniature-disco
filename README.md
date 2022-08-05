@@ -1,2 +1,2 @@
 # miniature-disco
-just for fun
+just for fun and record my learning process
